@@ -1,3 +1,9 @@
+# Ignore haters
+haters
+
+# Ignore build folder
+dist/**
+
 .DS_Store
 .vs
 .npm

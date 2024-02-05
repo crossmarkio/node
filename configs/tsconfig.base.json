@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["dom", "dom.iterable", "esnext"],
+
+    "composite": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "removeComments": true,
+    "declaration": true,
+    "sourceMap": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+
+    "allowSyntheticDefaultImports": true,
+
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noEmit": false,
+    "isolatedModules": false,
+    "preserveSymlinks": true,
+    "noUnusedLocals": false,
+    "strictPropertyInitialization": false,
+    "incremental": true
+  },
+  "references": []
+}
