@@ -6,6 +6,8 @@
 		"xrplmeta": "./src/run.js"
 	},
 	"scripts": {
+		"ts-node": "ts-node -P ./tsconfig.test.json",
+		"-------------": "",
 		"start": "node src/run.js",
 		"postinstall": "npm run build-deps",
 		"build-deps": "node-gyp rebuild --directory=deps --release",
